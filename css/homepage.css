@@ -1,0 +1,88 @@
+.header{
+    background: url("../img/hungry-banner.png") center/cover no-repeat;
+    height: calc(100vh - 83px);
+    display: flex;
+    align-items: center;
+}
+
+
+/*filter*/
+.products-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.filter span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.sorted p {
+  color: #8d8d99;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.dropdown-toggle {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.dropdown-menu {
+  min-width: 12rem;
+}
+.dropdown-menu li .dropdown-item {
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  line-height: 30px;
+}
+.dropdown-menu li .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+
+product card
+.product-cards {
+  margin-top: 50px;
+}
+.product-card {
+  background-color: #f3f4f9;
+  text-align: center;
+  padding-bottom: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(231, 233, 243, 0.5);
+}
+.product-card:hover {
+  box-shadow: 1px 1px 20px -6px rgb(60 64 67 / 30%);
+  cursor: pointer;
+}
+.product-card i {
+  padding-top: 25px;
+  color: #f7cb1d;
+}
+
+.product-price {
+  color: tomato;
+  font-size: 17px;
+  font-weight: 500;
+}
+.product-card-img {
+  position: relative;
+  max-width: 100%;
+}
+.product-card-img img {
+  width: 100%;
+  margin: auto;
+}
+.product-card-img span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #e3d675;
+  padding: 2px 16px;
+  color: #fff;
+  border-radius: 34px;
+}
